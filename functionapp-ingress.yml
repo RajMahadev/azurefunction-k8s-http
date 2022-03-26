@@ -8,7 +8,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /$2    
 spec:  
   rules:  
-    - host: kubedemo123.eastus.cloudapp.azure.com
+    - host: kube-demo.lotusinfo.tech
       http:
         paths:                
         - backend:
