@@ -8,7 +8,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /$2    
 spec:  
   rules:  
-    - host: function-helloworld.eastus2.cloudapp.azure.com
+    - host: kubedemo123.eastus.cloudapp.azure.com
       http:
         paths:                
         - backend:
